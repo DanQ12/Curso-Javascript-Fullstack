@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: #222;
+    color: #ddd;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 30px;
+    padding: 20px 0;
+
+}
+
+nav{
+    width: 100%;
+    background-color: #666;
+    justify-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 5px 10px;
+    height: 100%;
+}
+
+#barra-navegacion li:hover{
+    background-color: #444;
+}
+
+li a{
+    margin: 5px 10px;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+main{
+    padding-left: 10px;
+}
+
+h2{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+p{
+    color:#333;
+    margin-bottom: 10px;;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#personal{
+    margin-bottom:20px;;
+}
+
+#proyectos{
+    margin-bottom: 20px;
+}
+
+#proyectos div{
+    margin-bottom: 15px;
+}
+
+h3{
+    margin: 5px 0;
+    font-size: 17px;;
+}
+
+.link-proyecto{
+    text-align: center;
+    background-color: #222;
+    color: #ddd;
+    padding: 5px;
+}
+
+.link-proyecto:hover{
+    background-color: #666;
+}
+
+#habilidades{
+    margin-bottom: 20px;
+}
+
+#habilidades ul{
+    list-style: inside;
+    margin-left: 20px;
+    color:#333;
+    font-weight: 350;
+    font-size: 17px;
+}
+
+footer{
+    background-color: #222;
+    width: 100%;
+    padding: 5px;
+}
+
+footer p{
+    display: block;
+    color: #ddd;
+    text-align: center;
+}
