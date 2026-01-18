@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: #190281;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro-central{
+    width: 90%;
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+.ingresar{
+    background-color: #fff;
+    border: solid 1px black;
+    margin-top:  10px;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+.saldo{
+    font-size: 40px;
+    color: #077422; 
+}
+
+#contact-search{
+    margin-bottom: 10px;
+}
+
+h3{
+    margin-top: 10px;
+}
+
+ul{
+    padding-bottom: 10px;
+}
+
+.positive{
+    color: #077422;
+    font-weight: 500;
+}
+
+.negative{
+    color: #b31111;
+    font-weight: 500;
+}
+
+#message{
+    margin-bottom: 10px;
+}
+
+#messageMenu{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#collapse-contact{
+    padding-top: 15px;
+}
+
+.btn-primary{
+    margin-top: 10px;
+}
+
+.selected-contact{
+    background-color: #190281;
+    color: #eee;
+}
