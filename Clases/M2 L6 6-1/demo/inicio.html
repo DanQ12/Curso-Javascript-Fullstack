@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <title>DEMO Vairables JS</title>
+</head>
+<body>
+    <div class="container">
+        <h1>BIENVENIDA</h1>
+        <P class="descripcion">Ingresa tus datos para darte la bienvenida</P>
+
+        <form id="formulario">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required placeholder="Escribe tu nonmbre">
+            </div>
+
+            <div class="form-group">
+                <label for="age">Edad:</label>
+                <input type="text" id="age" name="edad" required placeholder="Escribe tu nonmbre">
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div id="resultado" class="resultado oculto">
+            <h2>Mensaje de Bienvenida</h2>
+            <p id="mensaje"></p>
+        </div>
+
+        <div class="consola">
+            <h3>Consola del navegador</h3>
+            <p class="info"> Abre la consola del navegador(F12) para ver los mensajes</p>
+        </div>
+    </div>
+
+    <script src="JS/scripts.js"></script>
+</body>
+</html>
