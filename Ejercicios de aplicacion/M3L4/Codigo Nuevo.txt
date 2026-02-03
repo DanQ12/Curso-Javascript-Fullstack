@@ -1,0 +1,15 @@
+let tareas = [];
+
+
+//si no se elimina nada, el splice añadira la tarea en el indice indicado
+
+function modificarLista(tarea, indice, elminar) {
+	tareas.splice(indice, eliminar ,tarea);
+	mostrarTareas();
+}
+
+function mostrarTareas() {
+	for (let i = 0; i < tareas.length; i++) {
+		console.log(i + 1 + ". " + tareas[i]);
+	}
+}

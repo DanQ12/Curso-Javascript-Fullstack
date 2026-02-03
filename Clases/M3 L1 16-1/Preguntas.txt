@@ -1,0 +1,19 @@
+¿Cómo podemos utilizr la consola para depurar errores de JavaScript?
+En la consola aparece un mensaje de error cuando estos estan presente, mostrando que tipo de error fue y en que linea del 
+codigo se presento el problema, para facilitar encontrarlo.
+
+¿Que ventajas tiene trabajar con DevTools al desarrollar en JavaScript?
+Facilita el econtrar errores del codigo como se menciono anteriormente. Tambien se peuden usar comandos para ir revisando
+el correcto funcionamiento de diversas partes del codigo, ya sea mediante mensaje para confirmar el estado de variables
+o el ingreso correcto a ciertos bloques, o con  herramientas que permiten registrar que funciones se ahn activado o
+"pausar" el codigo al llegar a cierta linea.
+
+¿Que significa que JavaScript es un lenguaje de ejecución en tiempo real?
+que es un programa que procesa los datos y responde a los eventos que se entregan dentro de un timepo limite de
+ microsegundos, en otras palabras responden a los cambios y en tiempo real y ejecutan la repsuesta apropiada a estos.
+
+¿Que aprendiste hoy que no conocias ante de JavaScript y los navegadores?
+Que compilador usan los navegadores apra usar JavaScript
+
+¿Que pasaría si quitamos la linea <script src="scrip.js"></script> de un HTML>
+El script deja de estar conectado con ese HTML, perdiendo la comunicacion y las funciones que este proveia
