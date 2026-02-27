@@ -1,12 +1,12 @@
 console.log("*".repeat(50));
-console.log("1) Creaciond e objetos en JS");
+console.log("1) Creacion de objetos en JS");
 console.log("*".repeat(50));
 
 //objetos literales
 
 console.log("\n 1. objetos literales")
 console.log("*".repeat(50));
-
+S
 const perro1 = {
     nombre: Pixixo,
     edad: 8,

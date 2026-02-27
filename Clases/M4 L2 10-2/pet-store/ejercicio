@@ -1,0 +1,32 @@
+tienda de mascotas 
+src/
+    js/
+        data.js
+        cart.js
+        ui.js
+styles/main.css
+template/index.html
+index.js
+webpackconfig.config.js
+package.json
+
+cd carpeta
+npm install
+npm run dev
+npm run build
+
+****************************************
+
+node, html, css, js, db
+Convertir el Producto en una clase ES6
+con un metodo obtenerInfo().
+- Reemplazar var por let o const
+-usar map(), reduce() y filter() en lugar
+de for.
+-Aplicar templates literals en
+obetenerInfo()
+-Covnertir calcularTotalInventario y
+filtrarProductosCaros en arrow
+functions.
+-Usar destructuracion en la funcion
+filtrarProductosCaros.

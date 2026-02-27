@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de mascotas</title>
+</head>
+
+<style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+
+        .container{
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        h1{
+            color: #764ba2;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .emoji{
+            font-size: 24px;
+        }
+
+        .subtitle{
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .info-box{
+            background: #f0f7ff;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .consola-output{
+            background: #1e1e1e;
+            color: #00ff00;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+</style>
+
+<body>
+    <div class="container">
+        <h1><span class="emoji">🐾</span>Tienda de Mascotas<span class="emoji">🐾</span></h1>
+
+        <p class="subtitle">Demo Webpack - Empaquetados de Modulos</p>
+    </div>
+
+    <div class="info-box">
+        <strong>📦 ¿Que hace Webpack aqui?</strong>
+        <p>Webpack está empaquetando todos nuestros modulos JavaScript (productos.js, servicios.js, carrito.js) en un solo archivo bundle.js optimizado. Abre la consola navegador (F12) para ver el resultado</p>
+    </div>
+
+    <div class="consola-output" id="console">
+        Abre la consola del Navegador (F12) para ver la salida de la aplicacion
+    </div>
+
+    <script src="dist/bundle.js"></script>
+</body>
+</html>
